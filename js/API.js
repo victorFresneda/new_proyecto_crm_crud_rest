@@ -22,3 +22,18 @@ export const nuevoCliente = cliente => {
     }
 }
 
+
+//Obtener todos los clientes 
+
+export const obtenerClientes = async () => {
+    try {
+        const resultado = await fetch(url);
+        const clientes = await resultado.json();
+        return clientes;
+    } catch (error) {
+
+        console.log(error);
+        
+    }
+}
+

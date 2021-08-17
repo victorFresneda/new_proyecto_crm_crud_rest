@@ -6,6 +6,27 @@
       "telefono": "12",
       "empresa": "12212",
       "id": 26
+    },
+    {
+      "nombre": "victor alfonso",
+      "email": "victor_fresneda@hotmail.com",
+      "telefono": "455564",
+      "empresa": "google",
+      "id": 27
+    },
+    {
+      "nombre": "victor113",
+      "email": "funciona@hotmail.com",
+      "telefono": "3133144321",
+      "empresa": "apple",
+      "id": 28
+    },
+    {
+      "nombre": "victor111",
+      "email": "fresneda@hotmail.com",
+      "telefono": "455564",
+      "empresa": "google",
+      "id": 29
     }
   ]
 }
