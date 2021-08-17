@@ -1,8 +1,17 @@
 
+import { obtenerCliente } from './API.js'; 
+
 (function(){
-    const parametrosURL = new URLSearchParams(window.location.search);
+    document.addEventListener('DOMContentLoaded', async () => {
 
-    const idCliente = parseInt(parametrosURL.get('id'));
+        const parametrosURL = new URLSearchParams(window.location.search);
 
-    console.log(idCliente);
+        const idCliente = parseInt(parametrosURL.get('id'));
+
+        const cliente = await obtenerCliente(idCliente);
+
+        console.log(cliente);
+
+    });
+    
 })();
